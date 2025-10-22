@@ -1,16 +1,39 @@
-# React + Vite
+<h2>🌿GreenNest – Indoor Plant Care & Store</h2> 
+<h3>📝 Description</h3>
+GreenNest is an elegant and responsive single-page web application (SPA) built for indoor plant lovers. It provides a one-stop platform to explore plant care guides, purchase plants, and book expert consultations, helping users create a greener and healthier living space.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project focuses on a clean, minimalist, and calming design, with a secure Firebase backend for user management. Plant and service data is loaded dynamically from a JSON source, and key routes are protected to ensure a secure and personalized user experience.
 
-Currently, two official plugins are available:
+<h3>✨ Key Features</h3>
+Full User Authentication: Secure user registration, login, and password reset (Forgot Password) functionality.
+<br/>
+<br/>
+Google Sign-In: One-click social login using Google as a Firebase authentication provider.
+<br/>
+<br/>
+Dynamic Data Fetching: All plant and service listings are loaded dynamically from a plants.json file.
+<br/>
+<br/>
+Protected Routes: Private routes for service details and profile management that are only accessible to logged-in users.
+<br/>
+<br/>
+Fully Responsive Design: A mobile-first, minimalist design that looks great on all devices.
+<br/>
+<br/>
+Single-Page Application (SPA): A fast and smooth user experience with client-side routing handled by React Router.
+<br/>
+<br/><br/>
+<br/>
+<h3>💻 Technologies Used</h3>
+Frontend: React.js
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Authentication: Firebase Authentication
 
-## React Compiler
+Routing: React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Styling: Tailwind CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Icons: React Icons
+
+Notifications: React Toastify 
