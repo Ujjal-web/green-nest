@@ -1,0 +1,74 @@
+[
+    {
+        "plantId": 1,
+        "plantName": "Snake Plant",
+        "category": "Air Purifier",
+        "price": 18,
+        "rating": 4.8,
+        "availableStock": 10,
+        "careLevel": "Easy",
+        "description": "A hardy plant that purifies indoor air and thrives in low light.",
+        "image": "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "UrbanGreen Studio"
+    },
+    {
+        "plantId": 2,
+        "plantName": "Spider Plant",
+        "category": "Pet-Friendly",
+        "price": 15,
+        "rating": 4.7,
+        "availableStock": 25,
+        "careLevel": "Easy",
+        "description": "A non-toxic and easy-to-grow plant, famous for its arching leaves and baby 'spiderettes'.",
+        "image": "https://images.pexels.com/photos/4603795/pexels-photo-4603795.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "Leafy Wonders"
+    },
+    {
+        "plantId": 3,
+        "plantName": "Golden Pothos",
+        "category": "Trailing Plant",
+        "price": 12,
+        "rating": 4.9,
+        "availableStock": 30,
+        "careLevel": "Easy",
+        "description": "A fast-growing vine that's incredibly resilient and perfect for hanging baskets or shelves.",
+        "image": "https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "The Green Corner"
+    },
+    {
+        "plantId": 4,
+        "plantName": "ZZ Plant",
+        "category": "Low Light",
+        "price": 22,
+        "rating": 4.8,
+        "availableStock": 15,
+        "careLevel": "Easy",
+        "description": "Virtually indestructible. Features waxy, dark green leaves and tolerates extreme low light.",
+        "image": "https://images.pexels.com/photos/1407328/pexels-photo-1407328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "Evergreen Emporium"
+    },
+    {
+        "plantId": 5,
+        "plantName": "Peace Lily",
+        "category": "Flowering",
+        "price": 20,
+        "rating": 4.6,
+        "availableStock": 18,
+        "careLevel": "Medium",
+        "description": "Elegant plant with dark green leaves and beautiful white flowers. Known for its air-purifying qualities.",
+        "image": "https://images.pexels.com/photos/1084188/pexels-photo-1084188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "Bloom & Root"
+    },
+    {
+        "plantId": 6,
+        "plantName": "Monstera Deliciosa",
+        "category": "Statement Plant",
+        "price": 35,
+        "rating": 4.7,
+        "availableStock": 8,
+        "careLevel": "Medium",
+        "description": "Iconic 'Swiss Cheese Plant' with large, fenestrated (split) leaves that makes a bold statement.",
+        "image": "https://images.pexels.com/photos/990818/pexels-photo-990818.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "providerName": "Indoor Oasis"
+    }
+]

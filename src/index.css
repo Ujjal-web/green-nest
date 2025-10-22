@@ -1,2 +1,18 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.georama-font {
+    font-family: "Georama", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
