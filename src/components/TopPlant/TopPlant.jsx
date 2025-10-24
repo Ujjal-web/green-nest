@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 
 
 
@@ -24,13 +24,13 @@ const TopPlant = ({ plants }) => {
                                 alt={plant.plantName}
                                 className="w-full h-60 object-cover"
                             />
-                            <span className="absolute top-3 right-3 bg-green-700 text-white text-lg font-bold px-3 py-1 rounded-full">
+                            <span className="absolute top-3 right-3 bg-green-700 text-white text-lg font-bold px-3 py-1 rounded-3xl">
                                 {plant.category}
                             </span>
                         </div>
 
 
-                        <div className="p-5 flex flex-col flex-grow">
+                        <div className="p-5 flex flex-col grow">
                             <h3 className="text-lg font-semibold text-gray-800 mb-1">
                                 {plant.plantName}
                             </h3>
@@ -50,13 +50,13 @@ const TopPlant = ({ plants }) => {
                             </div>
 
 
-                            <p className="text-gray-600 text-sm flex-grow line-clamp-3">
+                            <p className="text-gray-600 text-sm grow line-clamp-3">
                                 {plant.description}
                             </p>
 
-                            <button className="mt-5 bg-green-700 text-white text-lg py-2 rounded-xl font-bold hover:bg-green-900 transition-colors">
+                            <Link to={`/details/${plant.plantId}`}><button className="mt-5 w-full bg-green-700 text-white text-lg py-2 rounded-3xl font-bold hover:bg-green-900 transition-colors">
                                 View Details
-                            </button>
+                            </button></Link>
                         </div>
                     </div>
                 ))}

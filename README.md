@@ -1,10 +1,10 @@
-<h2>🌿GreenNest – Indoor Plant Care & Store</h2> 
-<h3>📝 Description</h3>
+<h2>GreenNest – Indoor Plant Care & Store</h2> 
+<h3>Description</h3>
 GreenNest is an elegant and responsive single-page web application (SPA) built for indoor plant lovers. It provides a one-stop platform to explore plant care guides, purchase plants, and book expert consultations, helping users create a greener and healthier living space.
 
 This project focuses on a clean, minimalist, and calming design, with a secure Firebase backend for user management. Plant and service data is loaded dynamically from a JSON source, and key routes are protected to ensure a secure and personalized user experience.
 
-<h3>✨ Key Features</h3>
+<h3> Key Features</h3>
 Full User Authentication: Secure user registration, login, and password reset (Forgot Password) functionality.
 <br/>
 <br/>
@@ -24,7 +24,7 @@ Single-Page Application (SPA): A fast and smooth user experience with client-sid
 <br/>
 <br/><br/>
 <br/>
-<h3>💻 Technologies Used</h3>
+<h3>Technologies Used</h3>
 Frontend: React.js
 
 Authentication: Firebase Authentication
