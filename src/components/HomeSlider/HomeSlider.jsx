@@ -63,7 +63,7 @@ const reorderedSlides = [...featuredPlants.slice(1), featuredPlants[0]];
 const HomeSlider = () => {
     return (
         <div className="slider-container">
-            <h3 className="text-4xl text-center">Featured Plants</h3>
+            <h3 className="text-4xl text-center py-4 md:font-bold">Featured Plants</h3>
             <Swiper
                 modules={[Autoplay, Pagination]}
                 slidesPerView={1}

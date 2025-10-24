@@ -30,7 +30,7 @@ const Plants = () => {
                         </div>
 
 
-                        <div className="p-5 flex flex-col flex-grow">
+                        <div className="p-5 flex flex-col grow">
                             <h3 className="text-lg font-semibold text-gray-800 mb-1">
                                 {plant.plantName}
                             </h3>
@@ -50,7 +50,7 @@ const Plants = () => {
                             </div>
 
 
-                            <p className="text-gray-600 text-sm flex-grow line-clamp-3">
+                            <p className="text-gray-600 text-sm grow line-clamp-3">
                                 {plant.description}
                             </p>
 
