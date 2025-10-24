@@ -1,9 +1,17 @@
 import React from 'react';
+import HomeSlider from '../../components/HomeSlider/HomeSlider';
+import TopPlant from '../../components/TopPlant/TopPlant';
+import { useLoaderData } from 'react-router';
+
+
 
 const Home = () => {
+
+    const topPlants = useLoaderData()
     return (
         <div>
-            <h3>This is home</h3>
+            <HomeSlider></HomeSlider>
+            <TopPlant plants={topPlants}></TopPlant>
         </div>
     );
 };

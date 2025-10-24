@@ -30,7 +30,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn">Login</button>
+          <button className="btn bg-green-700 text-white text-lg font-bold px-6 py-1 rounded-3xl">Login</button>
         </div>
       </div>
     </div>
