@@ -33,9 +33,7 @@ export const router = createBrowserRouter([
       {
         path: "/details/:id",
         element: (
-          <ProtectedRoute>
-            <PlantDetails />
-          </ProtectedRoute>
+          <PlantDetails />
         ),
         loader: () => fetch("/allPlantsData.json"),
       },

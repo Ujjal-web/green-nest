@@ -1,4 +1,4 @@
-# 🌿 GreenNest – Indoor Plant Care & Store
+# GreenNest – Indoor Plant Care & Store
 
 <div align="center">
 
@@ -10,7 +10,7 @@
   <br />
   
   <h3>
-    <a href="https://a9-green-nest.netlify.app">Live Demo</a>
+    <a href="https://a9-green-nest.netlify.app">Click here to visit the Live Link</a>
     <!-- <span> | </span>
     <a href="#features">Key Features</a>
     <span> | </span>
@@ -56,7 +56,7 @@ The project features a clean, minimalist, and calming design philosophy. It leve
 
 ## 📸 Screenshots
 
-*(Screenshots of Home page, Login page, and Details page will be added here here)*
+*(Screenshots of Home page, Login page, and Details page will be added here)*
 
 ## 🚀 Installation & Running Locally
 
