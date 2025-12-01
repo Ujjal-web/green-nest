@@ -6,12 +6,12 @@ import { Link, NavLink } from 'react-router';
 
 const TopPlant = ({ plants }) => {
     return (
-        <section className="max-w-11/12 mx-auto px-4 py-12 flex flex-col justify-center items-center">
+        <section className="max-w-11/12 mx-auto mt-20 px-4 py-12 flex flex-col justify-center items-center">
             <h2 className="text-2xl md:text-3xl font-semibold text-center mb-8 text-green-800">
                 Explore Our <span className="md:text-4xl underline font-bold">Top Rated</span> Indoor Plants
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
                 {plants.map((plant) => (
                     <div
                         key={plant.plantId}
@@ -24,35 +24,38 @@ const TopPlant = ({ plants }) => {
                                 alt={plant.plantName}
                                 className="w-full h-60 object-cover"
                             />
-                            <span className="absolute top-3 right-3 bg-green-700 text-white text-lg font-bold px-3 py-1 rounded-3xl">
+                            {/* <span className="absolute top-3 right-3 bg-green-700 text-white text-lg font-bold px-3 py-1 rounded-3xl">
                                 {plant.category}
-                            </span>
+                            </span> */}
                         </div>
 
 
-                        <div className="p-5 flex flex-col grow">
-                            <h3 className="text-lg font-semibold text-gray-800 mb-1">
-                                {plant.plantName}
-                            </h3>
-                            <p className="text-sm text-gray-500 mb-3">{plant.providerName}</p>
+                        <div className="p-5 flex flex-col">
+                            <div className='flex justify-between'>
+                                <div className="p-5 flex flex-col">
+                                    <h3 className="text-lg font-semibold text-gray-800 mb-1">
+                                        {plant.plantName}
+                                    </h3>
+                                    <p className="text-sm text-gray-500 mb-3">{plant.providerName}</p>
+                                </div>
 
-
-                            <div className="flex items-center justify-between mb-3">
-                                <p className="text-green-700 font-semibold text-lg">
-                                    ${plant.price}
-                                </p>
-                                <div className="flex items-center text-yellow-400">
-                                    <FaStar />
-                                    <span className="ml-1 text-sm text-gray-700">
-                                        {plant.rating}
-                                    </span>
+                                <div className="p-5 flex flex-col items-center">
+                                    <p className="text-green-700 font-semibold text-lg">
+                                        $ {plant.price}
+                                    </p>
+                                    <div className="flex items-center text-yellow-400">
+                                        <FaStar />
+                                        <span className="ml-1 text-sm text-gray-700">
+                                            {plant.rating}
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
 
 
-                            <p className="text-gray-600 text-sm grow line-clamp-3">
+                            {/* <p className="text-gray-600 text-sm grow line-clamp-3">
                                 {plant.description}
-                            </p>
+                            </p> */}
 
                             <Link to={`/details/${plant.plantId}`}><button className="mt-5 w-full bg-green-700 text-white text-lg py-2 rounded-3xl font-bold hover:bg-green-900 transition-colors">
                                 View Details
