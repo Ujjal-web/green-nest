@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC8XElKCGpTC-c2vPOAh7vFBHS3v7Yl2lc",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "a8-green-nest.firebaseapp.com",
   projectId: "a8-green-nest",
   storageBucket: "a8-green-nest.firebasestorage.app",
