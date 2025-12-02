@@ -49,9 +49,7 @@ const Navbar = () => {
   };
 
   return (
-    // Sticky navbar, full-width background
     <header className="bg-green-100 sticky top-0 z-50">
-      {/* Centered content with side margins */}
       <div className="navbar max-w-11/12 mx-auto px-4 lg:px-6">
         {/* LEFT: Logo + mobile menu */}
         <div className="navbar-start">
@@ -80,9 +78,9 @@ const Navbar = () => {
             >
               {links}
 
-              {/* Mobile extra: Login/Register link যদি user না থাকে */}
+              {/* Mobile-only Login/Register (when not logged in) */}
               {!user && (
-                <li className="m-2.5">
+                <li className="m-2.5 text-base">
                   <NavLink to="/login" className={navLinkClass}>
                     Login / Register
                   </NavLink>
@@ -105,10 +103,11 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
 
-        {/* RIGHT: Auth buttons / user dropdown */}
-        <div className="navbar-end space-x-3 flex flex-col items-end justify-between md:flex-row">
+        {/* RIGHT: Auth buttons (desktop) / avatar dropdown */}
+        <div className="navbar-end gap-3">
+          {/* Desktop Login/Signup (hidden on mobile) */}
           {!user && (
-            <>
+            <div className="hidden lg:flex items-center gap-3">
               <Link
                 to="/login"
                 className="btn bg-green-700 text-white text-lg font-bold px-5 py-1 rounded-3xl"
@@ -121,9 +120,10 @@ const Navbar = () => {
               >
                 Signup
               </Link>
-            </>
+            </div>
           )}
 
+          {/* User avatar dropdown (visible on all sizes when logged in) */}
           {user && (
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -141,7 +141,6 @@ const Navbar = () => {
                 <li className="text-center font-medium">
                   {user.displayName || "User"}
                 </li>
-                {/* My Profile when logged in */}
                 <li>
                   <Link to="/profile">My Profile</Link>
                 </li>

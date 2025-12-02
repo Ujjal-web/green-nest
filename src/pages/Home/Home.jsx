@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="bg-green-50">
             <HomeSlider></HomeSlider>
-            <TopPlant plants={topPlants}></TopPlant>
+            <TopPlant plants={topPlants.slice(0, 8)}></TopPlant>
             <PlantCareTips></PlantCareTips>
             <GreenExperts></GreenExperts>
         </div>
