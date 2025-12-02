@@ -12,27 +12,27 @@ const Navbar = () => {
 
   const links = (
     <>
-      <li className="m-2.5">
+      <li className="m-2.5 text-base">
         <NavLink to="/" className={navLinkClass}>
           Home
         </NavLink>
       </li>
-      <li className="m-2.5">
+      <li className="m-2.5 text-base">
         <NavLink to="/plants" className={navLinkClass}>
           All Plants
         </NavLink>
       </li>
-      <li className="m-2.5">
+      <li className="m-2.5 text-base">
         <NavLink to="/about" className={navLinkClass}>
           About Us
         </NavLink>
       </li>
-      <li className="m-2.5">
+      <li className="m-2.5 text-base">
         <NavLink to="/contact" className={navLinkClass}>
           Contact
         </NavLink>
       </li>
-      <li className="m-2.5">
+      <li className="m-2.5 text-base">
         <NavLink to="/support" className={navLinkClass}>
           Support
         </NavLink>
@@ -106,7 +106,7 @@ const Navbar = () => {
         </div>
 
         {/* RIGHT: Auth buttons / user dropdown */}
-        <div className="navbar-end space-x-3">
+        <div className="navbar-end space-x-3 flex flex-col items-end justify-between md:flex-row">
           {!user && (
             <>
               <Link
@@ -141,7 +141,7 @@ const Navbar = () => {
                 <li className="text-center font-medium">
                   {user.displayName || "User"}
                 </li>
-                {/* My Profile কে শুধু লগইন করা ইউজারের জন্য দেখানো হলো */}
+                {/* My Profile when logged in */}
                 <li>
                   <Link to="/profile">My Profile</Link>
                 </li>
