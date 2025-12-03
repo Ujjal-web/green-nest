@@ -10,7 +10,7 @@
   <br />
   
   <h3>
-    <a href="https://a9-green-nest.netlify.app">Click here to visit the Live Link</a>
+    <a href="https://green-nest-delta.vercel.app">Click here to visit the Live Link</a>
     <!-- <span> | </span>
     <a href="#features">Key Features</a>
     <span> | </span>
