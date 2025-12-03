@@ -31,7 +31,7 @@ const reviews = [
 const CustomerReviews = () => {
   return (
     <section className="bg-white">
-      <div className="max-w-6xl mx-auto px-4 py-16">
+      <div className="max-w-11/12 mx-auto px-4 py-16">
         <h2 className="text-2xl md:text-3xl font-semibold text-center text-green-800 mb-2">
           What Our <span className="underline font-bold">Customers Say</span>
         </h2>

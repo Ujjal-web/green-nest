@@ -29,7 +29,7 @@ const careTips = [
 const PlantCareTips = () => {
     return (
         <section className="bg-green-50 py-12 px-4 mt-12">
-            <div className="max-w-6xl mx-auto text-center">
+            <div className="max-w-11/12 mx-auto text-center">
                 <h2 className="text-2xl md:text-3xl font-semibold text-green-800 mb-8">
                     Plant Care Tips
                 </h2>

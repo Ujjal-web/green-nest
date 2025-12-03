@@ -35,7 +35,7 @@ const experts = [
 const GreenExperts = () => {
     return (
         <section className="py-14 px-4 bg-white">
-            <div className="max-w-6xl mx-auto text-center">
+            <div className="max-w-11/12 mx-auto text-center">
                 <h2 className="text-2xl md:text-3xl font-semibold text-green-800 mb-10">
                     Meet Our Green Experts
                 </h2>

@@ -53,9 +53,9 @@ const TopPlant = ({ plants }) => {
                             </div>
 
 
-                            {/* <p className="text-gray-600 text-sm grow line-clamp-3">
+                            <p className="text-gray-600 text-sm grow line-clamp-3">
                                 {plant.description}
-                            </p> */}
+                            </p>
 
                             <Link to={`/details/${plant.plantId}`}><button className="mt-5 w-full bg-green-700 text-white text-lg py-2 rounded-3xl font-bold hover:bg-green-900 transition-colors">
                                 View Details
@@ -65,7 +65,7 @@ const TopPlant = ({ plants }) => {
                 ))}
             </div>
             <NavLink to="/plants" className=" btn w-9/12 mt-5 bg-green-700 text-white text-xl py-5 rounded-xl font-bold hover:bg-green-900 transition-colors">
-                View All
+                See all Plants
             </NavLink>
         </section>
     );
