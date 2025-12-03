@@ -9,6 +9,9 @@ import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
 import ProtectedRoute from "./ProtectedRoute";
 import MyProfile from "../pages/MyProfile/MyProfile";
+import AboutUs from "../pages/About/About";
+import ContactUs from "../pages/Contact/Contact";
+import Support from "../pages/Support/Support";
 
 export const router = createBrowserRouter([
   {
@@ -53,6 +56,20 @@ export const router = createBrowserRouter([
           </ProtectedRoute>
         ),
       },
+      {
+        path: "/about",
+        element: <AboutUs />,
+      },
+      {
+        path: "/contact",
+        element: <ContactUs />,
+      },
+      {
+        path: "/support",
+        element: <Support />,
+      },
+
+
     ],
   },
 ]);

@@ -29,7 +29,7 @@ const Navbar = () => {
       </li>
       <li className="m-2.5 text-base">
         <NavLink to="/contact" className={navLinkClass}>
-          Contact
+          Contact Us
         </NavLink>
       </li>
       <li className="m-2.5 text-base">
